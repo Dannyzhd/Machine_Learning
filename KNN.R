@@ -102,7 +102,6 @@ class.comparison <- data.frame(iris.knn, test.labels)
 names(class.comparison) <- c("Predicted Species", "Observed Species")
 
 # Look at a contingency table
-
 CrossTable(x = iris_testing_labels, y = iris.knn, prop.chisq = F)
 
 
